@@ -82,10 +82,6 @@ The project follows a standard Laravel directory structure with some additional 
 
 If you find any issues or have suggestions for improvements, feel free to create an issue or submit a pull request. Your contributions are greatly appreciated! 🙌
 
-## License 📜
-
-This project is open-source and available under the [MIT License](LICENSE).
-
 ## Resources 📚
 
 - Laravel Official Website: [https://laravel.com/](https://laravel.com/)
