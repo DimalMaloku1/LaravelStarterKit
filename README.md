@@ -1,8 +1,6 @@
 # Laravel Beginner's Project 👨‍💻
 
-<p align="center">
-  <img src="https://laravel.com/assets/img/components/logo-laravel.svg" alt="Laravel Logo" width="500">
-</p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 Welcome to your Laravel Beginner's Project! This repository is meant to help you get started with the Laravel framework, one of the most popular PHP frameworks for web development. 🚀
 
