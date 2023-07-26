@@ -4,17 +4,13 @@ Welcome to your Laravel Beginner's Project! This repository is meant to help you
 
 ## Getting Started 🛠️
 
-Follow the instructions below to set up the project on your local machine:
+Follow the instructions below to set up the project on your local machine using XAMPP:
 
 ### Prerequisites 📋
 
 Before you begin, ensure that you have the following installed:
 
-- [PHP](https://www.php.net/manual/en/install.php) (>= 7.4)
-- [Composer](https://getcomposer.org/doc/00-intro.md)
-- [Node.js](https://nodejs.org/en/download/) (>= 14.x)
-- [npm](https://www.npmjs.com/get-npm) (included with Node.js installation)
-- [MySQL](https://dev.mysql.com/downloads/installer/) or any other database supported by Laravel
+- [XAMPP](https://www.apachefriends.org/index.html) (or any other local development environment that includes PHP, MySQL, and Apache)
 
 ### Installation ⚙️
 
@@ -61,7 +57,7 @@ Before you begin, ensure that you have the following installed:
    php artisan serve
    ```
 
-Congratulations! You now have a basic Laravel project up and running. Visit `http://localhost:8000` in your web browser to access the application. 🎉
+Congratulations! You now have a basic Laravel project up and running using XAMPP. Visit `http://localhost:8000` in your web browser to access the application. 🎉
 
 ## Project Structure 📁
 
@@ -81,6 +77,7 @@ The project follows a standard Laravel directory structure with some additional 
 ## Contributing 👥
 
 If you find any issues or have suggestions for improvements, feel free to create an issue or submit a pull request. Your contributions are greatly appreciated! 🙌
+
 
 ## Resources 📚
 
