@@ -10,7 +10,12 @@ Follow the instructions below to set up the Electroshop project on your local ma
 
 ### Prerequisites 📋
 
-	@@ -19,8 +19,8 @@ Before you begin, ensure that you have the following installed:
+Before you begin, ensure that you have the following installed:
+
+- [XAMPP](https://www.apachefriends.org/index.html) (or any other local development environment that includes PHP, MySQL, and Apache)
+
+### Installation ⚙️
+
 1. Clone the repository to your local machine:
 
    ```bash
@@ -19,7 +24,26 @@ Follow the instructions below to set up the Electroshop project on your local ma
    ```
 
 2. Install PHP dependencies using Composer:
-	@@ -47,19 +47,21 @@ Before you begin, ensure that you have the following installed:
+
+   ```bash
+   composer install
+   ```
+
+3. Install JavaScript dependencies using npm:
+
+   ```bash
+   npm install
+   ```
+
+4. Create a copy of the `.env.example` file and name it `.env`. Update the necessary environment variables such as database connection settings.
+
+   ```bash
+   cp .env.example .env
+   ```
+
+5. Generate a new application key:
+
+   ```bash
    php artisan key:generate
    ```
 
@@ -41,7 +65,20 @@ Congratulations! You now have the Electroshop project up and running using XAMPP
 
 ## Project Structure 📁
 
-	@@ -80,10 +82,11 @@ The project follows a standard Laravel directory structure with some additional
+The project follows a standard Laravel directory structure with some additional directories:
+
+- `app`: Contains the core application files.
+- `config`: Contains configuration files.
+- `database`: Contains database-related files, including migrations and seeders.
+- `public`: The web server's document root.
+- `resources`: Contains assets, views, and language files.
+- `routes`: Contains route definitions.
+- `storage`: Contains logs, cache, and other storage-related files.
+- `tests`: Contains test cases.
+- `vendor`: Contains Composer dependencies.
+- `node_modules`: Contains npm packages.
+
+## Contributing 👥
 
 If you find any issues or have suggestions for improvements, feel free to create an issue or submit a pull request. Your contributions are greatly appreciated! 🙌
 
