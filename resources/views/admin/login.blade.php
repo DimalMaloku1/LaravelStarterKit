@@ -18,8 +18,6 @@
 			@include('admin.message')
 
 			<div class="card card-outline card-primary">
-
-				
 			  	<div class="card-header text-center">
 					<a href="#" class="h3">Administrative Panel</a>
 			  	</div>
