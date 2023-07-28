@@ -9,8 +9,16 @@ use App\Models\Category;
 
 class CategoryController extends Controller
 {
-    public function index(){
+    public function index(Request $request){
+        $categories = Category::latest();
 
+        if (!empty($request->get('keyword'))) {
+            $categories = $categories->where('name','like','%'.$request->get('keyword').'%');
+
+        }
+        $categories = $categories->paginate(10);
+        
+        return view('admin.category.list',compact('categories'));
     }
 
     public function create(){
@@ -31,7 +39,6 @@ class CategoryController extends Controller
             $category->slug = $request->slug;
             $category->status = $request->status;
             $category->save();
-
 
             session()->flash('success','Category added successfully');
 
