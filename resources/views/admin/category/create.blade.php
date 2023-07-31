@@ -145,7 +145,6 @@
                     $("#slug").val(response["slug"]);
                 }
             }
-
         });
     });
     
